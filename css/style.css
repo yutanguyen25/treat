@@ -1,0 +1,53 @@
+body {
+    margin: 0px;
+}
+
+#container {
+    height: 100vh;
+    background-color: rgba(255, 211, 218, 0.831);
+    position: relative;
+}
+
+#box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+    height: 40%;
+}
+
+#question-box {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    width: 300px;
+    height: 120px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+#answer-box {
+    padding: auto;
+}
+
+#winner {
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    border-radius: 5px;
+    visibility: hidden;
+}
+
+#replay {
+    padding: 10px 5px;
+}
